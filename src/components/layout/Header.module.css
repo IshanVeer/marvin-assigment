@@ -1,0 +1,53 @@
+.container{
+    max-width: 130rem;
+    margin: 3rem auto;
+    
+}
+.heroSubHeading{
+    font-size: 2.4rem;
+    color: var(--color-grey-200);
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+.heroHeading{
+    font-size: 7.2rem;
+    width: 90rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 1.2;
+    position: absolute;
+
+}
+.heroButton{
+    position: relative;
+    font-size: 1.8rem;
+    padding: 1.4rem 2.8rem;
+    color: white;
+    background-color: var(--primary-color);
+    display: inline-block;
+    top: 190px;
+    left: 290px;
+    border-radius: 2.5rem;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    &:hover{
+        background-color: white;
+        border: 1px solid var(--primary-color);
+        cursor: pointer;
+        color: var(--primary-color);
+    }
+}
+.heroPara{
+font-size: 2.2rem;
+font-weight: 600;
+color: var(--color-grey-100);
+width: 30rem;
+position: relative;
+top: 116px;
+left: 532px;
+}
+.heroParaBold{
+color: var(--primary-color);
+}

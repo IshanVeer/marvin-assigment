@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    max-width: 130rem;
+    justify-content: space-between;
+    margin: 3rem auto;
+}
+.logo{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.navMenuContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+.navLinks{
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+}
+.linkItems{
+    padding-bottom: 0.8rem;
+
+}
+.navLink{
+    color: var(--color-grey-100);
+    transition: all 0.2s;
+&:hover{
+    color: var(--primary-color);
+}    
+}
+.menuButton{
+    background-color: transparent;
+    padding: 1rem;
+
+    cursor: pointer;
+    outline: none;
+    
+}
