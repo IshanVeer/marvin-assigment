@@ -3,8 +3,8 @@
     gap: 0.5rem;
     padding: 1rem 2rem;
     align-items: center;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 400;
     color: var(--primary-color);
     border: 1.5px solid  rgb(219, 219, 219) ;
     border-radius: 2rem;
@@ -12,6 +12,10 @@
     &:hover{
         cursor: pointer;
         border: 1px solid  var(--primary-color) ;
+    }
+    @media(min-width: 700px){
+        font-weight: 700;
+        font-size: 1.4rem;
     }
 }
 .dropdownContainer{

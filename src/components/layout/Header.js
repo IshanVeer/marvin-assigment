@@ -9,13 +9,11 @@ const Header = () => {
         <h1 className={css.heroHeading}>
           Creative Projects with the Ultimate AI-Powered Pattern
         </h1>
-        
-          <div className={css.heroButton}>Start Generating</div>
-          <h3 className={css.heroPara}>
-            The Next generation{" "}
-            <span className={css.heroParaBold}>Production</span> for Designers
-          </h3>
-        
+        <h3 className={css.heroPara}>
+          The Next generation{" "}
+          <span className={css.heroParaBold}>Production</span> for Designers
+        </h3>
+        <div className={css.heroButton}>Start Generating</div>
       </div>
     </div>
   );
