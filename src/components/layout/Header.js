@@ -5,16 +5,16 @@ const Header = () => {
   return (
     <div>
       <div className={css.container}>
-        <p className={css.heroSubHeading}>Revolutionize Your</p>
+        <h2 className={css.heroSubHeading}>Revolutionize Your</h2>
         <h1 className={css.heroHeading}>
           Creative Projects with the Ultimate AI-Powered Pattern
         </h1>
         
           <div className={css.heroButton}>Start Generating</div>
-          <p className={css.heroPara}>
+          <h3 className={css.heroPara}>
             The Next generation{" "}
             <span className={css.heroParaBold}>Production</span> for Designers
-          </p>
+          </h3>
         
       </div>
     </div>
